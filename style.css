@@ -153,8 +153,38 @@
 
   /* our client section */
 
-  
+  #client-section{
+    height: 344px;
+    position: relative;
 
+  }
+  #client-section::before{
+    content: "";
+    position: absolute;
+    background: url(img/salad-geafe270bb_1920.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+
+
+  }
+  #client-item{
+   padding: 34px;
+  }
+  #client{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #client img{
+    height: 170px;
+
+  }
 
 
 
